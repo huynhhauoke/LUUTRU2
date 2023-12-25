@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+</html>
+<head></head>
+Họ và tên: <input id="name" type="text">
+<br>
+Năm sinh: <input id="years" type="text">
+<br>
+Quê Quáng: <input id="Que_quang" type="text">
+<br>
+<button onclick="Giatritrave()">Nhập!</button>
+<div id="ketqua"></div><br> 
+
+<script>
+	function Giatritrave(){
+		var name = document.getElementById('name').value
+		//	var age = parseInt(document.getElementById('age'))
+		var years = parseInt(document.getElementById('years').value)
+		var Que_quang = document.getElementById('Que_quang').value
+		var age = 2023 - years
+		document.getElementById('ketqua'). innerHTML += (`Hi! ${name} <br>
+														Bạn năm nay ${age}<br>
+														Quê của bạn ở ${Que_quang}<br>`)
+	}
+</script>
+</body>

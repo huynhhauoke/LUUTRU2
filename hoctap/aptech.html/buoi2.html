@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook</title>
+</head>
+
+<body>
+    <form method="post" action="xuludk.php" ;">
+        <fieldset>
+            <legend>Thông tin tài khoản</legend>
+            Tên đăng nhập : <input type="text" name="tendangnhap" required><br>
+            <br>
+            Mật khẩu : <input type="password"><br>
+            <br>
+            Email : <input type="email"><br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin cá nhân </legend>
+            Sex :
+            <input type="radio" name="sex" id="nam" checked>Nam
+            <input type="radio" name="sex" id="nữ">Nữ
+            <br>
+            <br>
+            Đã đi làm <input type="checkbox" checked>
+            <br>
+            Tuổi : <input type="number" min="1" max="100" step="3">
+            <br>
+            <br>
+            Ngày sinh : <input type="datetime-local">
+            <br>
+            <br>
+            ảnh đại diện <input type="file">
+            <br>
+            Quê Quáng:
+            <select>
+                <option>Quảng Nam</option>
+                <option>Quảng Ngãi</option>
+            </select>
+            <br>
+            <br>
+            <button>Đăng nhập</button>
+            <br>
+            Note <textarea name="" id="" cols="30" row="10"></textarea>
+            <br>
+            <button type="button">Nhấn vào</button>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
+
+<!-- action nơi tiếp nhận file xử lí  -->

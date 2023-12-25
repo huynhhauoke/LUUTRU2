@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.content{
+    padding: 15px 20px;
+}
+div.content div.logo {
+    float: left;
+    font-size: 35px;
+}
+div.content div.logo a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.content div.items{
+    float: right;    
+    width: 100px;
+    display: inline;
+    padding:0  10px;  
+}
+
+div.content div.items ul li a {
+    text-decoration: none;
+}

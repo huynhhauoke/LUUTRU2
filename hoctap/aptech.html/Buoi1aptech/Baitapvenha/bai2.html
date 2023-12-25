@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+</head>
+<body>
+    <div class="formdk" style="width: 100%; height: 100%;">
+        <h1 style="width: 100%; height: 50%; text-align: center;">FORM ĐĂNG KÝ</h1>
+    </div>
+    <form>
+        <fieldset style="border-style: solid; border: 500%;">
+            <legend style="text-align: center;"><h1>Thông tin đăng nhập</h1></legend>
+            <img src="file:///C:/Users/loant/Downloads/feather/user.svg" style="margin-right:10px;"><b>Account</b> <input type="text" name="tendangnhap" required style="margin-left: 10px;">
+            <br>
+            <br>
+            <img src="file:///C:/Users/loant/Downloads/feather/lock.svg" style="margin-right: 10px;"><b>Password </b><input type="password" name="matkhau">
+            <br>
+            <br>
+            <img src="file:///C:/Users/loant/Downloads/feather/mail.svg" style="margin-right: 10px;"><b>Email</b> <input type="email" name="email" style="margin-left: 22px;">
+            <br>
+            <br>
+            <img src="file:///C:/Users/loant/Downloads/feather/phone-outgoing.svg" style="margin-right: 10px;"><b> Phone </b><input type="number" name="phonenumber" style="margin-left: 15px;">
+            <br>
+            <br>
+            <button style=" text-align: center; color: black; background-color: chocolate;"><b>Đăng nhập</b></button>
+        </fieldset>
+
+        <fieldset>
+            <legend style="text-align: center;"><h1>Thông tin cá nhân</h1></legend>
+            <b>Họ và tên</b> <input type="text" name="name" required style="margin-left: 55px;">
+            <br>
+            <br>
+            <b>Số nhà</b> <input type="text" name="diachi" style="margin-left: 72px;">
+            <br>
+            <br>
+            <b>Phường</b> <input type="text" name="phuong" style="margin-left: 66px;">
+            <br>
+            <br>
+            <b>Quận/Huyện</b>
+                <select style="margin-left: 35px; width: 22%;" name="quan">
+                    <option>Quận 1</option>
+                    <option>Quận 12</option>
+                    <option>Quận Gò Vấp</option>
+                    <option>Quận Bình Thạnh</option>
+                    <option>Quận Tân Phú</option>
+                    <option>Quận Bình Tân</option>
+                    <option>Quận HoccMon</option>
+                </select>
+                <br>
+                <br>
+            <b>Tỉnh/Thành Phố</b>
+                <select style="margin-left: 10px; width: 22%;" name="Tp">
+                    <option>Tp. Hồ Chí Minh</option>
+                    <option>Tp. Hà Nội</option>
+                    <option>Tp. Nha Trang</option>
+                    <option>Tp. Bà rịa-Vũng Tàu</option>
+                    <option>Đăk Lăk </option>
+                </select>
+            <br>
+            <br>
+            <b>Nghề Nghiệp</b>
+                <select style="margin-left: 32px; width: 22%;">
+                    <option>Học sinh - sinh viên</option>
+                    <option>Nhân viên văn phòng </option>
+                    <option>Công nhân</option>
+                    <option>Khác...</option>
+                </select>
+            <br>
+            <br>
+            <b>Ngày sinh</b>
+                <input type="date" name="ngay_sinh" style="margin-left: 50px; width: 22%;">
+            <br>
+            <br>
+            <b style="margin-right: 50px;">Giới tính </b>
+                <input type="radio" name="sex" value="Nam">Nam
+                <input type="radio" name="sex" value="Nữ" style="margin-left: 30px;">Nữ
+            <br>
+            <br>
+            <b style="margin-right: 68px;">Avatar</b>
+                <input type="file" name="avatar">
+            <br>
+            <br>
+
+            <b>Thông tin thêm </b>
+                <textarea name="thongtinthem" id="" cols="20" rows="10"></textarea>
+                <br>
+                <br>
+
+            <button type="submit" style="background-color: chocolate;">Submit</button>
+            <button type="reset" style="background-color: chocolate;">Reset</button> 
+            </fieldset>
+    </form>
+	<form>
+		<fieldset>
+			<legend>
+					Thông tin chi tiết 
+			</legend>
+			<p>
+				BẢNG THỐNG KÊ ĐIỂM TỐT NGHIỆP 
+			</p>
+			<br>
+			<br>
+			Nhập điểm TOÁN <input type="number" name="toan">
+			<br>
+			<br>
+			Nhập điểm VĂN <input type="number" name="van">
+			<br>
+			<br>
+			Nhập điểm Anh <input type="number" name="anh">
+			<br>
+			<br>
+			Tổng điểm của bạn la: <input type="text" name="tong">
+			<br>
+			<br>
+
+		</fieldset>
+	</form>
+</body>
+</html>

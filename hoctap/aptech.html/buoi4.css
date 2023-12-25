@@ -1,0 +1,17 @@
+div{
+    float: initial;    
+}
+#div1 {
+    background-color: aqua;
+}
+
+#div2 {
+    background-color: beige;
+}
+#div3 {
+    background-color: cadetblue;
+}
+
+#div4{
+    background-color: brown;
+}
